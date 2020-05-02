@@ -1,0 +1,5 @@
+subtotalでcountifを使いたい時
+
+O列を集計したい時
+
+=SUMPRODUCT((SUBTOTAL(103,INDIRECT("O"&ROW($O$11:$O$377))))*($O$11:$O$377>=0.02))
